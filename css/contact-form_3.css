@@ -1,0 +1,633 @@
+@font-face {
+	font-family: 'Open Sans';
+	src: url(../g-font/Light/OpenSans-Light.eot);
+	src: url(../g-font/Light/OpenSans-Lightd41d.eot?#iefix) format('embedded-opentype'), url(../g-font/Light/OpenSans-Light.woff2) format("woff2"), url(../g-font/Light/OpenSans-Light.woff)format("woff"), url(../g-font/Light/OpenSans-Light.ttf) format("truetype"), url(../g-font/Light/OpenSans-Light.svg#OpenSansLight) format("svg");
+	font-weight: 300;
+	font-style: normal; }
+
+@font-face {
+	font-family: 'Open Sans';
+	src: url(../g-font/Regular/OpenSans-Regular.eot);
+	src: url(../g-font/Regular/OpenSans-Regulard41d.eot?#iefix) format('embedded-opentype'), url(../g-font/Regular/OpenSans-Regular.woff2) format("woff2"), url(../g-font/Regular/OpenSans-Regular.woff)format("woff"), url(../g-font/Regular/OpenSans-Regular.ttf) format("truetype"), url(../g-font/Regular/OpenSans-Regular.svg#OpenSansRegular) format("svg");
+	font-weight: 400;
+	font-style: normal; }
+
+@font-face {
+	font-family: 'Open Sans';
+	src: url(../g-font/Semibold/OpenSans-Semibold.eot);
+	src: url(../g-font/Semibold/OpenSans-Semiboldd41d.eot?#iefix) format('embedded-opentype'), url(../g-font/Semibold/OpenSans-Semibold.woff2) format("woff2"), url(../g-font/Semibold/OpenSans-Semibold.woff)format("woff"), url(../g-font/Semibold/OpenSans-Semibold.ttf) format("truetype"), url(../g-font/Semibold/OpenSans-Semibold.svg#OpenSansSemibold) format("svg");
+	font-weight: 600;
+	font-style: normal; }
+
+@font-face {
+	font-family: 'Open Sans';
+	src: url(../g-font/Bold/OpenSans-Bold.eot);
+	src: url(../g-font/Bold/OpenSans-Boldd41d.eot?#iefix) format('embedded-opentype'), url(../g-font/Bold/OpenSans-Bold.woff2) format("woff2"), url(../g-font/Bold/OpenSans-Bold.woff)format("woff"), url(../g-font/Bold/OpenSans-Bold.ttf) format("truetype"), url(../g-font/Bold/OpenSans-Bold.svg#OpenSansBold) format("svg");
+	font-weight: 700;
+	font-style: normal; }
+
+body {
+	font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	/* Fix for webkit rendering */
+	-webkit-text-size-adjust: 100%;
+	margin: 0 auto;
+	font-size: 12px;
+	-webkit-tap-highlight-color: transparent;
+	overflow: hidden; }
+
+::-webkit-selection {
+	color: rgb(253, 253, 253);
+	background: #00726d; }
+
+::-moz-selection {
+	/* Code for Firefox */
+	color: rgb(253, 253, 253);
+	background: #00726d; }
+
+::selection {
+	color: rgb(253, 253, 253);
+	background: #00726d; }
+
+.relative,
+.relative_msg {
+	position: relative;
+	width: 48.75%;
+	display: inline-block;
+	/*height:60px;*/
+	margin: 0px 0px 1.5%;
+	/*background-color:transparent;*/
+	resize: none;
+	outline: none;
+	-webkit-transition: all .35s;
+	-moz-transition: all .35s;
+	-ms-transition: all .35s;
+	-o-transition: all .35s;
+	transition: all .35s;
+	transition-property: initial;
+	transition-duration: 0.35s;
+	transition-timing-function: initial;
+	transition-delay: initial;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box; }
+
+.float_email {
+	float: right; }
+
+.relative_msg {
+	position: relative;
+	width: 100%;
+	max-width: 100%;
+	min-height: 150px;
+	max-height: 150px;
+	display: inline-block; }
+
+.ajax-form button,
+.ajax-form input,
+.ajax-form optgroup,
+.ajax-form select,
+.ajax-form textarea {
+	color: #3e3d40; /* 1 */
+	/*font: inherit;  2 */
+	font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+	font-size: 1.5em;
+	font-weight: 400;
+	margin: 0 auto; /* 3 */ }
+
+/*
+*, :after, :before {
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+}*/
+
+.c_form_title {
+	width: 100%;
+	max-width: 850px;
+	padding: 0px;
+	margin: 0 auto;
+	font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+	font-weight: 300;
+	text-align: center;
+	color: #3e3d40;
+	-webkit-font-smoothing: antialiased;
+	font-size: 2.8em;
+	margin-bottom: 100px; }
+
+.contact-cont {
+	width: 100%;
+	margin: 0 auto;
+	max-width: 1490px; }
+
+.ajax-form {
+	width: 100%;
+	margin: 0 auto;
+	display: inline-block;
+	background-color: transparent;
+	box-sizing: border-box; }
+
+.ajax-form input,
+.ajax-form textarea {
+	padding-top: 25px;
+	padding-left: 15px;
+	font-size: 2em;
+	color: #333333;
+	height: 60px;
+	/*margin: 0 0 2%;*/
+	background-color: transparent;
+	resize: none;
+	/* remove the lines icon on the right/bottom corner */
+	outline: none;
+	display: block;
+	width: 100%;
+	border-radius: 0;
+	border: none;
+	border-bottom: 2px solid #333333;
+	position: relative;
+	-moz-transition: all .35s;
+	-o-transition: all .35s;
+	-ms-transition: all .35s;
+	-webkit-transition: all .35s;
+	transition: all .35s;
+	transition-property: initial;
+	transition-duration: 0.35s;
+	transition-timing-function: initial;
+	transition-delay: initial;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-appearance: none;
+	z-index: 2; }
+
+.ajax-form input:focus,
+.ajax-form textarea:focus {
+	border: 1px solid #00716F;
+	/*box-shadow: none !important;*/
+	color: #3e3d40;
+	-moz-transition: all .35s;
+	-o-transition: all .35s;
+	-ms-transition: all .35s;
+	-webkit-transition: all .35s;
+	transition: all .35s;
+	transition-property: initial;
+	transition-duration: 0.35s;
+	transition-timing-function: initial;
+	transition-delay: initial;
+	-webkit-appearance: none;
+	outline: none; }
+
+.ajax-form input:hover,
+.ajax-form textarea:hover {
+	border-bottom: 2px solid #00716F;
+	/*box-shadow: none !important;*/
+	color: #333333; }
+
+.ajax-form input:valid,
+.ajax-form textarea:valid {
+	border-bottom: 1px solid #00716F;
+	/*box-shadow: none !important;*/
+	color: #333333; }
+
+.ajax-form input[type="submit"] {
+	width: 150px;
+	border: 1px solid #00716F;
+	background-color: #00716F;
+	color: rgb(240, 240, 240);
+	font-size: 1.5em;
+	font-weight: 400;
+	letter-spacing: .8px;
+	padding: 15px 40px;
+	-webkit-font-smoothing: antialiased;
+	margin: 0px;
+	float: right;
+	cursor: pointer;
+	-webkit-transition: all .35s;
+	-moz-transition: all .35s;
+	-ms-transition: all .35s;
+	-o-transition: all .35s;
+	transition: all .35s;
+	transition-property: initial;
+	transition-duration: 0.35s;
+	transition-timing-function: initial;
+	transition-delay: initial;
+	-webkit-appearance: none; }
+
+.ajax-form input[type="submit"]:hover {
+	border: 1px solid #333333;
+	background-color: #333333;
+	color: rgb(242, 242, 242); }
+
+/*.ajax-form input:-webkit-autofill,
+.ajax-form input:-webkit-autofill:hover,
+.ajax-form input:-webkit-autofill:focus,
+.ajax-form input:-webkit-autofill:valid,
+.ajax-form textarea:-webkit-autofill,
+.ajax-form select:-webkit-autofill{
+	-webkit-appearance:none;
+	background-color: rgb(248,248,248) !important;
+}*/
+
+.name,
+.email {
+	margin: 0px .625%;
+	width: 48.75%; }
+
+.name {
+	min-height: 70px;
+	float: left;
+	overflow: hidden;
+	position: relative; }
+
+.email {
+	min-height: 70px;
+	float: right; }
+
+.message {
+	width: 100%;
+	max-width: 100%;
+	min-height: 150px;
+	max-height: 150px; }
+
+.form-btn {
+	text-align: center; }
+/*.form-btn:hover {
+	background-color: red !important;
+	border-color:rgba(0,0,0,.2); }*/
+
+.relative .error,
+.relative_msg .error {
+	border: 1px solid #ED1941 !important; }
+
+/*.relative .error:focus,
+.relative_msg .error:focus  {
+	border:1px solid #1abc9c !important;
+	-webkit-transition: all .35s;
+	-moz-transition: all .35s;
+	-ms-transition: all .35s;
+	-o-transition: all .35s;
+    transition: all .35s;
+    transition-property: initial;
+    transition-duration: 0.35s;
+    transition-timing-function: initial;
+    transition-delay: initial; }*/
+
+.form-button-error {
+	display: none !important; }
+
+.form-thank-you {
+	display: none;
+	width: 100%;
+	text-align: center; }
+
+.form-thank-youh3 {
+	padding-top: 15px;
+	text-align: center;
+	font-family: inherit;
+	width: 90%;
+	margin: 0 auto;
+	color: #333333;
+	position: absolute;
+	top: 15%;
+	left: 0px;
+	right: 0px;
+	display: none;
+	font-size: 1.5em; }
+
+.form-thank-youh3 p {
+	display: inline-block;
+	font-size: 2.4em;
+	font-weight: 300;
+	line-height: normal;
+	margin: 0px; }
+
+.form-thank-youh3 h3 {
+	font-size: 3em;
+	margin-bottom: 10px;
+	margin-top: 15px;
+	font-weight: 300;
+	line-height: normal; }
+
+/* label name animation */
+label {
+	position: absolute;
+	top: 20px;
+	left: 5px;
+	color: #333333;
+	font-size: 2em;
+	cursor: text;
+	-webkit-transition: all .35s;
+	-moz-transition: all .35s;
+	-ms-transition: all .35s;
+	-o-transition: all .35s;
+	transition: all .35s;
+	transition-property: initial;
+	transition-duration: 0.35s;
+	transition-timing-function: initial;
+	transition-delay: initial;
+	pointer-events: none; }
+
+.ajax-form input:hover~label,
+.ajax-form textarea:hover~label {
+	color: #00716F; }
+
+.ajax-form input:focus~label,
+.ajax-form input:valid~label,
+.ajax-form textarea:focus~label,
+.ajax-form textarea:valid~label {
+	top: 5px;
+	left: 9px;
+	font-size: 1.5em;
+	font-weight: 400;
+	color: #00716F;
+	-webkit-transition: all .35s;
+	-moz-transition: all .35s;
+	-ms-transition: all .35s;
+	-o-transition: all .35s;
+	transition: all .35s;
+	transition-property: initial;
+	transition-duration: 0.35s;
+	transition-timing-function: initial;
+	transition-delay: initial;
+	z-index: 2; }
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus input:-webkit-autofill:valid,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+	border: 1px solid #333333;
+	-webkit-text-fill-color: #333333;
+	-moz-text-fill-color: #333333;
+	-ms-text-fill-color: #333333;
+	-o-text-fill-color: #333333;
+	-webkit-box-shadow: 0 0 0px 1000px rgb(240, 240, 240) inset;
+	-moz-box-shadow: 0 0 0px 1000px rgb(240, 240, 240) inset;
+	-ms-box-shadow: 0 0 0px 1000px rgb(240, 240, 240) inset;
+	-o-box-shadow: 0 0 0px 1000px rgb(240, 240, 240) inset;
+	box-shadow: 0 0 0px 1000px rgb(240, 240, 240) inset;
+	transition: background-color 0s; }
+
+input:-webkit-autofill::selection {
+	-webkit-text-fill-color: rgb(253, 253, 253);
+	background: #00716F; }
+
+
+/* The switch - the box around the slider ======== captcha ========== */
+.switch {
+	position: relative;
+	display: inline-block;
+	width: 60px;
+	height: 25px;
+	border-radius: 0px;
+	overflow: hidden; }
+
+.switch input {
+	opacity: 0;
+	width: 100%;
+	height: 100%;
+	cursor: pointer; }
+
+.switch input {
+	cursor: pointer; }
+
+.switch_error {
+	background-color: #ED1941; }
+
+.slider {
+	position: absolute;
+	cursor: pointer;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: #3e3d40;
+	border-radius: 0px; }
+
+.slider:before {
+	position: absolute;
+	content: "";
+	height: 17px;
+	width: 25px;
+	left: 4px;
+	bottom: 4px;
+	background-color: rgb(240, 240, 240);
+	border-radius: 0px; }
+
+input.slider,
+input.slider:before .error {
+	background-color: #ED1941 !important; }
+
+input:checked+.slider {
+	background-color: #00716F !important; }
+
+input:focus+.slider {
+	box-shadow: 0 0 1px #00716F; }
+
+input:checked+.slider:before {
+	-webkit-transform: translateX(26px);
+	-moz-transform: translateX(26px);
+	-ms-transform: translateX(26px);
+	-o-transform: translateX(26px);
+	transform: translateX(26px); }
+
+/*================== probabile errore =================*/
+
+/* Rounded sliders */
+.slider.round {
+	border-radius: 34px; }
+
+.slider.round:before {
+	border-radius: 50%; }
+
+.slider,
+.slider:before,
+.error,
+.switch_error {
+	-webkit-transition: all .35s;
+	-moz-transition: all .35s;
+	-ms-transition: all .35s;
+	-o-transition: all .35s;
+	transition: all .35s;
+	transition-property: initial;
+	transition-duration: 0.35s;
+	transition-timing-function: initial;
+	transition-delay: initial; }
+
+.gdpr_send_cont {
+	width: 67.75%;
+	display: inline-block;
+	height: 100%;
+	vertical-align: middle; }
+
+.gdpr_send_cont_1 {
+	width: 30.75%;
+	display: inline-block;
+	height: 100%;
+	vertical-align: middle; }
+
+.gdpr_send_cont_1 .form-btn {
+	overflow: hidden; }
+
+.gdpr_a {
+	display: inline-block;
+	margin-left: 1em;
+	font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+	font-size: 1.5em;
+	font-weight: 400;
+	letter-spacing: .5px;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	color: #333333;
+	vertical-align: middle;
+	width: 70%;
+	text-align: left; }
+
+.gdpr_a a {
+	text-decoration: none;
+	cursor: pointer;
+	color: #00716F; }
+
+.gdpr_a a:hover {
+	border-bottom: 1px solid #00716F; }
+
+.switch_cont {
+	display: inline-block;
+	vertical-align: middle; }
+
+
+@media only screen and (min-width: 1400px) {
+body {
+	font-size: 14px; }
+.contact-cont {
+	max-width: none; }
+}
+
+@media only screen and (max-width: 1400px) {
+body {
+	font-size: 10px; }
+.form-thank-youh3 {
+	top: 10%;
+	font-size: 1.3em; }
+}
+
+@media only screen and (max-width: 1100px) {
+/*.c_form_title{
+font-size:2.5em; }*/
+.form-thank-youh3 {
+	top: 10%;
+	width: 80%;
+	font-size: 1.3em; }
+.ajax-form input[type="submit"] {
+	height: 55px; }
+}
+
+@media only screen and (max-width: 572px) {
+.contact-cont {
+	width: 100%;
+	margin: 0 auto; }
+.ajax-form input,
+.ajax-form textarea {
+	/*border:1px solid #3e3d40;*/
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	border-radius: 0px;
+	margin: 0px 0px; }
+.ajax-form input:hover,
+.ajax-form textarea:hover,
+.ajax-form input:valid,
+.ajax-form textarea:valid {
+	border: 1px solid #00716F; }
+.name,
+.email {
+	margin: 0px auto;
+	margin-bottom: 10px;
+	width: 100%; }
+.relative,
+.relative_msg {
+	width: 100%;
+	margin-bottom: 10px; }
+.float_email {
+	float: none; }
+.ajax-form input[type="submit"] {
+	height: 55px;
+	margin-top: 0px; }
+.c_form_title {
+	/*font-size:2.3em;*/
+	margin-bottom: 50px; }
+.form-thank-youh3 {
+	font-size: 1.2em;
+	line-height: auto;
+	top: 10%; }
+}
+
+@media only screen and (max-width: 480px) {
+.contact-cont {
+	width: 100%;
+	margin: 0 auto; }
+.ajax-form input,
+.ajax-form textarea {
+	border: 1px solid #3e3d40;
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	border-radius: 0px;
+	/*border-radius:4px;*/ }
+label {
+	top: 20px;
+	left: 15px; }
+.ajax-form input:focus~label,
+.ajax-form input:valid~label,
+.ajax-form textarea:focus~label,
+.ajax-form textarea:valid~label {
+	top: 5px;
+	left: 10px; }
+.c_form_title {
+	font-size: 20px; }
+.form-thank-youh3 {
+	line-height: auto;
+	width: 100%;
+	/*top: 25%;*/ }
+.gdpr_send_cont,
+.gdpr_send_cont_1 {
+	width: 100%; }
+.gdpr_send_cont {
+	margin-bottom: 25px; }
+.switch_cont {
+	display: inline-block;
+	vertical-align: middle; }
+.gdpr_a {
+	width: 75%;
+	max-width: 192px;
+	display: inline-block; }
+}
+
+@media only screen and (max-width: 340px) {
+.form-thank-youh3 {
+	width: 100%;
+	top: 15%; }
+}
+
+@media only screen and (max-width: 270px) {
+.gdpr_a {
+	width: 70%;
+	max-width: 69%; }
+}
+
+@media only screen and (max-width: 255px) {
+.gdpr_a {
+	width: 70%;
+	max-width: 53%; }
+}
+
+@media only screen and (max-width: 200px) {
+.gdpr_a {
+	width: 90%;
+	max-width: none;
+	margin-left: 0px;
+	margin-top: 10px; }
+}
